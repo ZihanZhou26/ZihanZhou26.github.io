@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Contact information for Zihan Zhou.">
+  <title>Contact | Zihan Zhou</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav class="site-nav">
+    <div class="site-nav-inner">
+      <a class="brand" href="index.html">Zihan Zhou</a>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="research.html">Research</a></li>
+        <li><a href="publications.html">Publications</a></li>
+        <li><a href="cv.html">CV</a></li>
+        <li><a class="active" href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main>
+    <section class="section" data-animate style="--delay: 0.05s;">
+      <p class="eyebrow">Contact</p>
+      <h1>Get in Touch</h1>
+    </section>
+
+    <section class="section contact-layout" data-animate style="--delay: 0.12s;">
+      <article class="contact-card">
+        <h2>Direct Contact</h2>
+        <ul class="contact-list">
+          <li>Email: <a href="mailto:zihanz@princeton.edu">zihanz@princeton.edu</a></li>
+          <li>Location: Princeton, New Jersey</li>
+        </ul>
+        <h3>Quick Links</h3>
+        <ul class="contact-list">
+          <li><a href="research.html">Research overview</a></li>
+          <li><a href="publications.html">Selected publications</a></li>
+          <li><a href="cv-zihan-zhou.pdf" target="_blank" rel="noopener">Full CV (PDF)</a></li>
+        </ul>
+      </article>
+
+      <article class="contact-card">
+        <h2>Send a Message</h2>
+        <form class="contact-form" action="mailto:zihanz@princeton.edu" method="post" enctype="text/plain">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" placeholder="Your name" required>
+
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" placeholder="you@example.com" required>
+
+          <label for="subject">Subject</label>
+          <input type="text" id="subject" name="subject" placeholder="Message subject" required>
+
+          <label for="message">Message</label>
+          <textarea id="message" name="message" placeholder="Write your message..." required></textarea>
+
+          <button type="submit">Send</button>
+        </form>
+        <p class="form-note">
+          This form uses your local email client. If it does not open automatically, use the email address listed above.
+        </p>
+      </article>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Zihan Zhou</p>
+  </footer>
+</body>
+</html>
